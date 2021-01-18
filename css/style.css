@@ -37,12 +37,20 @@ body {
 }
 
 @media(max-width:480px){ /*Anzal :415px*/
+    #home {
+        height: 92vh;
+        padding: 20px 20px;
+    }
     .hero-section {
         background-image: url(../images/mob-her0-bg2.png);
     }
     .hero-contant h1 {
         font-size: 35px;
         font-weight: 600;
+    }
+    .hero-contant p {
+        font-size: 19px;
+        color: #444444;
     }
     
 }
